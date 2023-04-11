@@ -49,6 +49,7 @@ body {
   font-size: var(--font-size-sm);
   color: var(--light-color-alt);
   background-color: var(--primary-background-color);
+  letter-spacing: 1px;
   transition: background-color 0.25s, color, 0.25s;
 }
 
@@ -303,6 +304,7 @@ body.light-theme {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 1px;
   padding: 0.4rem;
   height: 100%;
 }
@@ -621,7 +623,7 @@ body.light-theme {
 }
 
 .footer-title {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-sm);
   text-transform: uppercase;
   margin-bottom: var(--margin-sm);
 }
